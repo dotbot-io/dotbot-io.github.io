@@ -1,0 +1,39 @@
+---
+---
+
+$primary-1: black;
+
+button {
+    padding: 1em 2em;5
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+    & > * {
+        padding: 2em;
+        border: 1px solid black;
+    }
+
+    nav {
+        padding:0;
+        margin: 0;
+
+        h1, h2, h3, h4 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-img {
+            color: white;
+            box-sizing: border-box;
+            padding: 4em;
+            width: 100%; 
+            min-height: 200px; top: 0; left: 0;
+            background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://via.placeholder.com/2000x800) no-repeat center;
+            background-size: cover;
+        }
+    }
+}
